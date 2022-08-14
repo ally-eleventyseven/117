@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+  background-color: #1868ae;
+  padding: 1em 8vw;
+}
+
+.menu_text {
+  align-self: center;
+  color: #c6d7eb;
+  font-family: Futura;
+  font-weight: 100;
+  letter-spacing: 0.2em;
+}
+
+.logo {
+  max-width: 25vh;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+li {
+  padding: 0 1.5em;
+}
+
+.pink_bg {
+  max-width: 100vw;
+}
+
+.menu_btm {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #d9a5b3;
+  padding: 1em 8vw;
+}
